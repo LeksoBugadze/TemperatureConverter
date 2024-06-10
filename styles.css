@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:300;
+    font-style: normal;
+  }
+
+
+*{
+    font-family:"Quicksand", sans-serif ;
+    margin: 0;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: white;
+    background-image: linear-gradient(45deg,#FFB347,#ADD8E6);
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+}
+
+.p1{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+#celcius{
+    margin-left: 52px;
+}
+
+.name{
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.input{
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    background-color: rgba(0,0,0,0.5);
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-box{
+    display: flex;
+    flex-direction: column;
+    background-color: #3e3e42;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 80px 30px 80px;
+    border-radius: 20px;
+}
+
+.p2{
+    font-size: 30px;
+    color: white;
+}
+
+.btn1{
+    margin-top: 20px;
+    border: none;
+    font-size: 30px;
+    padding: 5px 15px 7px 15px;
+    border-radius: 50%;
+    font-weight: 400;
+    cursor:pointer;
+    transition: all 0.5s;
+}
+
+.btn1:hover{
+    background-color: rgb(255, 113, 113);
+    transform: translateY(-5px);
+    color: white;
+}
